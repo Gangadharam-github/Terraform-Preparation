@@ -155,7 +155,7 @@ resource "aws_autoscaling_group" "asg" {
 resource "aws_cloudwatch_log_group" "my_log_group" {
   name = "/aws/ec2/web-server"
 
-  retention_in_days = 14
+  retention_in_days = 15
 }
 
 #amazn S3
